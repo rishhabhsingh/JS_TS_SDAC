@@ -1,6 +1,6 @@
 function filterPassedStudents(marks) {
   return marks.filter((mark) => {
-    return mark >= 40
+    return mark >= 40;
   })
 }
 

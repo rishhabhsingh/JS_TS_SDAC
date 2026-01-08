@@ -1,6 +1,6 @@
 const increaseMarks = function (marks) {
   return marks.map((mark) => {
-    return mark + 10;
+    return mark + 10
   })
 }
 
