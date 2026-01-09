@@ -1,4 +1,4 @@
-const students = [
+const employees = [
     {
         name: "Shubham",
         salary: [850000]
@@ -13,8 +13,8 @@ const students = [
     }
 ]
 
-const filterStudentsByScore = students.filter((student) => {
-    return student.salary > 450000
+const filterEmployees = employees.filter((employee) => {
+    return employee.salary > 450000
 })
 
-console.log(filterStudentsByScore)
+console.log(filterEmployees)

@@ -6,7 +6,8 @@ class Emp{
     }
 
     displayInfo() {
-        return this.name, this.id, this.salary 
+        return (this.name, this.id, this.salary)
+
     }
 }
 
