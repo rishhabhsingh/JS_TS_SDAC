@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Question 4</title>
+</head>
+<body>
+    <form onsubmit="validateForm()">
+        <input type="text" id="name" placeholder="Product Name"><br><br>
+        <input type="number" id="price" placeholder="Product Price"><br><br>
+        <input type="number" id="quantity" placeholder="Product Quantity"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        function validateForm() {
+            let name = document.getElementById("name").value
+            let price = document.getElementById("price").value
+            let quantity = document.getElementById("quantity").value
+
+            let nameRegex = /.+/
+            let priceRegex = /^[1-9]\d*(\.\d+)?$/
+            let quantityRegex = /^[1-9]\d*$/
+
+            if (!nameRegex.test(name)) {
+                alert("Name must contain only letters")
+                return
+            }
+
+            if (!priceRegex.test(price)) {
+                alert("Price must be a positive number");
+                return;
+            }
+
+            if (!quantityRegex.test(quantity)) {
+                alert("Quantity must be greater than 0");
+                return;
+            }
+
+            else{
+                alert("Form submitted successfully")
+            }
+        }
+    </script>
+
+</html>

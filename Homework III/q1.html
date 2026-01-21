@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Question 1</title>
+</head>
+<body>
+    <input type="text" id="inputField" placeholder="Enter text here">
+    <button id="bt">Submit Your Module Name</button>
+    <ul id="myList">
+        <li>TV</li>
+        <li>Mobile</li> 
+        <li>Laptop</li>
+    </ul>
+
+    <script>
+        let button = document.getElementById("bt")
+        button.onclick = function() {
+            let input = document.getElementById("inputField")
+            let ul = document.getElementById("myList")
+            let li = document.createElement("li")
+
+            li.textContent = input.value
+            ul.appendChild(li)
+        }
+            
+    </script>
+
+</body>
+</html>

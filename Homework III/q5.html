@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Question 4</title>
+</head>
+<body>
+    <form onsubmit="validateForm()">
+        <input type="text" id="name" placeholder="Customer Name"><br><br>
+        <input type="text" id="product" placeholder="Product"><br><br>
+        <textarea id="query" placeholder="Your Address"></textarea><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        function validateForm() {
+            let name = document.getElementById("name").value
+            let product = document.getElementById("product").value
+            let query = document.getElementById("query").value
+
+            const nameRegex = /^[A-Za-z ]+$/
+            const addressRegex = /.+/ 
+
+            if (!nameRegex.test(name)) {
+                alert("Name must contain only letters")
+                return
+            }
+
+            else if (!addressRegex.test(query)) {
+                alert("Address cannot be empty")
+                return;
+            }
+
+            else{
+                alert("Form submitted successfully")
+            }
+        }
+    </script>
+
+</html>
