@@ -1,18 +1,24 @@
 <html>
 <head>
-    <title>Question 3</title>   
+    <title>Question 3</title>  
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style> 
 </head>
 <body>
     <p>Cart: <span id="countSpan">6</span></p>
     <button onclick="clearButton()">Reset Cart</button>
 
     <script>
-        let count = 0
+       let count = 0
 
-        function clearButton() {
-            count = 0
-            document.getElementById("countSpan").innerText = count
-        }
+       function clearButton() {
+           count = 0
+           document.getElementById("countSpan").innerText = count
+       }
     </script>
 </body>
 </html>
