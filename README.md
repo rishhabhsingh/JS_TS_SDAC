@@ -36,45 +36,30 @@ Perfect for learners, students, and developers brushing up on JS & TS.
 
 The project is divided into multiple folders based on exercises and tasks.
 
-/
-├── Classwork I  
-├── Classwork II  
-├── Classwork III
-├── Classwork IV
-├── Classwork V
-├── Homework I  
-├── Homework II  
-├── Homework III
-├── Homework IV
-├── Homework V
-├── Practice  
-└── Additional Exercises  
-
 Each folder may contain:
 - JavaScript files (.js)
 - TypeScript files (.ts)
 - HTML files where required
 
-## Getting Started
+## 💻 Setup & Run
 
-### Clone the repository
-
+```bash
+# Clone the repository
 git clone https://github.com/rishhabhsingh/JS_TS_SDAC.git
 
-### Navigate to the project directory
-
+# Navigate to the project directory
 cd JS_TS_SDAC
 
-### Run JavaScript files
-
+# Run JavaScript files
 node filename.js
 
-### Compile and run TypeScript files
-
-npm install -g typescript  
-tsc filename.ts  
+# Compile and run TypeScript files
+npm install -g typescript
+tsc filename.ts
 node filename.js
+```
 
+## Topics Covered
 ### JavaScript
 - Variables, Data Types, Operators
 - Functions & Scope
