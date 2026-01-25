@@ -64,14 +64,17 @@ node filename.js
 - Variables, Data Types, Operators
 - Functions & Scope
 - Arrays & Objects
+- Error Handling 
 - ES6+ Features
 - Async JS (Promises, async/await)
+- DOM
+- Event Handling
+- Nodejs and mySQL Integration`
 
 ### TypeScript
-- Type Annotations & Inference
-- Interfaces & Type Aliases
+- Interfaces & Abstract
 - Classes & OOP
-- Generics & Enums
+- Generics & Functions
 
 ## 🛠 Technologies Used
 
@@ -89,7 +92,7 @@ This repository can be used for:
 - Reference for basic to intermediate concepts
 
 <p align="center">
-  Made with ❤️ using JS & TS 
+  Made with ❤️ using
   <img width="40" src="https://img.icons8.com/color/48/000000/javascript.png" style="vertical-align: middle;"/>
   <img width="40" src="https://img.icons8.com/color/48/000000/typescript.png" style="vertical-align: middle;"/>
 </p>
