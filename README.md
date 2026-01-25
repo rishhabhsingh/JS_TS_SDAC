@@ -32,7 +32,7 @@
 
 Perfect for learners, students, and developers brushing up on JS & TS.
 
-## Repository Structure
+## 📁 Repository Structure
 
 The project is divided into multiple folders based on exercises and tasks.
 
@@ -59,7 +59,7 @@ tsc filename.ts
 node filename.js
 ```
 
-## Topics Covered
+## 📚 Topics Covered
 ### JavaScript
 - Variables, Data Types, Operators
 - Functions & Scope
@@ -73,14 +73,14 @@ node filename.js
 - Classes & OOP
 - Generics & Enums
 
-## Technologies Used
+## 🛠 Technologies Used
 
 - JavaScript (ES6+)
 - TypeScript
 - Node.js
 - HTML
 
-## Usage
+## 📌 Usage
 
 This repository can be used for:
 - Learning JavaScript and TypeScript
