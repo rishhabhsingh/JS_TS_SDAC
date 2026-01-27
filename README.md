@@ -1,140 +1,100 @@
-# JavaScript and TypeScript Solutions
+<p align="center">
+  <img width="180" src="https://raw.githubusercontent.com/github/explore/HEAD/topics/javascript/javascript.png" alt="JavaScript Logo">
+  <img width="180" src="https://raw.githubusercontent.com/github/explore/HEAD/topics/typescript/typescript.png" alt="TypeScript Logo">
+</p>
 
-This repository contains a collection of JavaScript and TypeScript solutions focused on core concepts, practice exercises, and module-based problem solving. It is intended for learning, revision, and reference purposes.
+<h1 align="center">🚀 JS & TS SDAC</h1>
+<p align="center">
+  JavaScript & TypeScript Classwork, Homework, and Practice Solutions 💻
+</p>
 
-## Overview
+<p align="center">
+  <a href="https://github.com/rishhabhsingh/JS_TS_SDAC/stargazers">
+    <img src="https://img.shields.io/github/stars/rishhabhsingh/JS_TS_SDAC?style=for-the-badge" alt="Stars">
+  </a>
+  <a href="https://github.com/rishhabhsingh/JS_TS_SDAC/network/members">
+    <img src="https://img.shields.io/github/forks/rishhabhsingh/JS_TS_SDAC?style=for-the-badge" alt="Forks">
+  </a>
+  <a href="https://github.com/rishhabhsingh/JS_TS_SDAC/issues">
+    <img src="https://img.shields.io/github/issues/rishhabhsingh/JS_TS_SDAC?style=for-the-badge" alt="Issues">
+  </a>
+  <a href="https://github.com/rishhabhsingh/JS_TS_SDAC/license">
+    <img src="https://img.shields.io/github/license/rishhabhsingh/JS_TS_SDAC?style=for-the-badge" alt="License">
+  </a>
+</p>
 
-The repository includes solved examples and exercises written in JavaScript and TypeScript. The code is organized in a structured manner to make it easy to navigate and understand different topics and problem statements.
+## 🌟 Overview
+**JS_TS_SDAC** contains structured solutions for JavaScript and TypeScript exercises including:
 
-## Repository Structure
+- Classwork
+- Homework
+- Practice exercises
+
+Perfect for learners, students, and developers brushing up on JS & TS.
+
+## 📁 Repository Structure
 
 The project is divided into multiple folders based on exercises and tasks.
-
-/
-├── Classwork I  
-├── Classwork II  
-├── Classwork III  
-├── Homework I  
-├── Homework II  
-├── Homework III  
-├── Practice  
-└── Additional Exercises  
 
 Each folder may contain:
 - JavaScript files (.js)
 - TypeScript files (.ts)
 - HTML files where required
 
-## Getting Started
+## 💻 Setup & Run
 
-### Clone the repository
-
+```bash
+# Clone the repository
 git clone https://github.com/rishhabhsingh/JS_TS_SDAC.git
 
-### Navigate to the project directory
-
+# Navigate to the project directory
 cd JS_TS_SDAC
 
-### Run JavaScript files
-
+# Run JavaScript files
 node filename.js
 
-### Compile and run TypeScript files
-
-npm install -g typescript  
-tsc filename.ts  
+# Compile and run TypeScript files
+npm install -g typescript
+tsc filename.ts
 node filename.js
+```
 
-## Topics Covered
+## 📚 Topics Covered
+### JavaScript
+- Variables, Data Types, Operators
+- Functions & Scope
+- Arrays & Objects
+- Error Handling 
+- ES6+ Features
+- Async JS (Promises, async/await)
+- DOM
+- Event Handling
+- Nodejs and mySQL Integration`
 
-### JavaScript Fundamentals
-- Variables (var, let, const)
-- Data types (string, number, boolean, null, undefined, symbol)
-- Error handling (try, catch, finally)
+### TypeScript
+- Interfaces & Abstract
+- Classes & OOP
+- Generics & Functions
 
-### Functions
-- Function declarations and expressions
-- Arrow functions
-- Parameters and return values
-- Default and rest parameters
-- Callback functions
-
-### Arrays
-- Array creation and indexing
-- Array methods (push, pop, shift, unshift, splice, slice)
-- Iteration methods (map, filter, reduce, forEach)
-- Destructuring arrays
-
-### Objects
-- Object creation and properties
-- Object methods
-- this keyword
-- Destructuring objects
-
-### JavaScript ES6+ Features
-- let and const
-- Arrow functions
-- Spread and rest operators
-- Destructuring
-- Modules (import/export)
-
-### Asynchronous JavaScript
-- Synchronous vs asynchronous execution
-- Callbacks
-- Promises
-- async and await
-- Error handling in async code
-
-### TypeScript Basics
-- Type annotations
-- Basic types (number, string, boolean, array, tuple)
-- any, unknown, void, never
-- Union and intersection types
-- Type inference
-
-### TypeScript Advanced Concepts
-- Interfaces
-- Type aliases
-- Enums
-- Optional and readonly properties
-- Function typing
-- Generics
-- Utility types (Partial, Pick, Omit, Readonly)
-
-### Type Safety and Static Typing
-- Compile-time type checking
-- Preventing runtime errors
-- Strict mode in TypeScript
-- Type narrowing
-- Non-null assertions
-
-### Object-Oriented Programming
-- Classes and objects
-- Constructors
-- Access modifiers (public, private, protected)
-- Inheritance
-- Polymorphism
-- Method overriding
-- Abstract classes
-
-### DOM and Browser Basics
-- DOM selection and manipulation
-- Event handling
-- Form handling
-- Basic client-side validation
-
-## Technologies Used
+## 🛠 Technologies Used
 
 - JavaScript (ES6+)
 - TypeScript
 - Node.js
+- HTML
 
-## Usage
+## 📌 Usage
 
 This repository can be used for:
 - Learning JavaScript and TypeScript
 - Practicing coding problems
 - Reviewing solved exercises
 - Reference for basic to intermediate concepts
+
+<p align="center">
+  Made with ❤️ using
+  <img width="40" src="https://img.icons8.com/color/48/000000/javascript.png" style="vertical-align: middle;"/>
+  <img width="40" src="https://img.icons8.com/color/48/000000/typescript.png" style="vertical-align: middle;"/>
+</p>
 
 
