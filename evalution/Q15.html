@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Question 15</title>   
+</head>
+<body>
+    <p>Count: <span id="countSpan">0</span></p>
+    <button onclick="incrementButton()">Increment</button>
+    <button onclick="decrementButton()">Decrement</button>
+    <button onclick="clearButton()">Clear Count</button>
+
+    <script>
+        let count = 0
+        function incrementButton() {
+            count++
+            document.getElementById("countSpan").innerText = count
+        }
+
+        function decrementButton() {
+            count--
+            document.getElementById("countSpan").innerText = count
+        }
+
+        function clearButton() {
+            count = 0
+            document.getElementById("countSpan").innerText = count
+        }
+    </script>
+</body>
+</html>

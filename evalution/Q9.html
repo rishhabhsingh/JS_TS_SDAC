@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 9</title>
+</head>
+<body>
+    <input type="text" id="input" placeholder="Enter New Course">
+    <button id="button">Submit</button>
+    <ul>
+        <li>CS</li>
+        <li>IT</li>
+        <li>DS</li>
+    </ul>
+
+    <script>
+        let button = document.getElementById("button")
+        button.onclick = function () {
+            let input = document.getElementById("input")
+            let newCourse = input.value
+            let ul = document.querySelector("ul")
+            let li = document.createElement("li")
+            li.textContent = newCourse
+            ul.appendChild(li)
+        }
+    </script>
+</body>
+</html>
